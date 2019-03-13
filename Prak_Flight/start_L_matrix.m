@@ -1,5 +1,4 @@
-function L_zero = start_L_matrix (start_matr)
-  mean_vect = mean(start_matr, 1);
+function L_zero = start_L_matrix (mean_vect)
   w_vect = mean_vect(2:4);
   f_vect = mean_vect(5:7);
   
